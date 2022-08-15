@@ -1,93 +1,92 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Airplanes.</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Landing page lamborghini</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__logo">
+                    Lamborghini 3D Pinball
+                </div>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="content">
-	<div class="loading">Loading</div>
-	<div class="trigger"></div>
-	<div class="section">
-		
-		<h1>3D Pinball.</h1>
-		<h3>3D Pinball Space Code.</h3>
-		<p>You've probably forgotten what these are.</p>
-<!-- 		<div class="phonetic">/ ˈɛərˌpleɪn /</div> -->
-		<div class="scroll-cta">Scroll</div>
-	</div>
-	
-	<div class="section right">
-		<h2>They're kinda like buses...</h2>
-	</div>
-	
-	<div class="ground-container">
-		<div class="parallax ground"></div>
-		<div class="section right">
-			<h2>..except they leave the ground.</h2>
-			<p>Saaay what!?.</p>
-		</div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link">Models</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Brand</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Store</a></li>
+                        <li class="nav__item"><a href="./privacy.html" class="nav__link">Privacy</a></li>
+                    </ul>
+                </div>
 
-		<div class="section">
-			<h2>They fly through the sky.</h2>
-			<p>For realsies!</p>
-		</div>
-		
-		<div class="section right">
-			<h2>Defying all known physical laws.</h2>
-			<p>It's actual magic!</p>
-		</div>
-		<div class="parallax clouds"></div>
-	</div>
-	
-	<div class="blueprint">
-		<svg width="100%" height="100%" viewbox="0 0 100 100">
-			<line id="line-length" x1="10" y1="80" x2="90" y2="80" stroke-width="0.5"></line>
-			<path id="line-wingspan" d="M10 50, L40 35, M60 35 L90 50" stroke-width="0.5"></path>
-			<circle id="circle-phalange" cx="60" cy="60" r="15" fill="transparent" stroke-width="0.5"></circle>
-		</svg>
-		<div class="section dark ">
-			<h2>The facts and figures.</h2>
-			<p>Lets get into the nitty gritty...</p>
-		</div>
-		<div class="section dark length">
-			<h2>Length.</h2>
-			<p>Long.</p>
-		</div>
-		<div class="section dark wingspan">
-			<h2>Wing Span.</h2>
-			<p>I dunno, longer than a cat probably.</p>
-		</div>
-		<div class="section dark phalange">
-			<h2>Left Phalange</h2>
-			<p>Missing</p>
-		</div>
-		<div class="section dark">
-			<h2>Engines</h2>
-			<p>Turbine funtime</p>
-		</div>
-<!-- 		<div class="section"></div> -->
-	</div>
-	<div class="sunset">
-		<div class="section"></div>
-		<div class="section end">
-			<h2>Fin.</h2>
-			<ul class="credits">
-				<li>Privacy Policy <a href="https://3dpinball.github.io/privacy" target="_blank">NBANBI</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-<!-- partial -->
-  <script src='./zbvazw.js'></script>
-<script src='https://unpkg.com/three@0.117.1/build/three.min.js'></script>
-<script src='https://unpkg.com/three@0.117.1/examples/js/loaders/OBJLoader.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js'></script>
-<script src='./draw.min.js'></script><script  src="./script.js"></script>
+                <div class="nav__toggle" id="nav__toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
 
-</body>
+        <main class="main-home">
+            <div class="home">
+                <h1 class="home__title">LAMBORGHINI</h1>
+
+                <div class="home__img">
+                    <img src="assets/img/lamborghini.png" alt="">
+                </div>
+
+                <div class="home__information">
+                    <h2 class="home__subtitle">LAMBORGHINI<br>GALLARDO LP560</h2>
+                    <p class="home__description">Lorem ipsum dolor sit amet consect  adipiscing elit, commodo tristique id quisque lobortis facilisi feugiat</p>
+                </div>
+
+                <div class="box">
+                    <div class="box__medium box--dark">
+                        <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                        <h3 class="box__medium-title d-inline">3.7</h3>
+                        <span class="box__medium-description d-block">Sec.</span>
+                        <span class="box__medium-detail">0-100 km/h</span>
+                    </div>
+
+                    <div>
+                        <div class="box__small box--dark">
+                            <ion-icon name="trending-up-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title d-inline">325</h3>
+                            <span class="box__small-description d-block">km/h</span>
+                            <span class="box__small-detail">Top Speed</span>
+                        </div>
+                        <div class="box__small box--dark">
+                            <ion-icon name="car-sport-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title d-inline">8.000</h3>
+                            <span class="box__small-description d-block">r.p.m</span>
+                            <span class="box__small-detail">Power</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+        
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- ANIMATION -->
+        <script>
+            /*TITLE Y IMG*/
+            gsap.from('.home__title', {opacity: -1, duration: 1.5, delay:1})
+            gsap.from('.home__img', {opacity: 0, duration: 1, delay:1, x: 100})
+            gsap.from('.home__information', {opacity: 0, duration: 1, delay:1.2, y: -30})
+
+            /*BOX*/
+            gsap.from('.box__medium', {opacity: 0, duration: 1.5, delay:1.3, y: -50})
+            gsap.from('.box__small', {opacity: -1, duration: 1.5, delay:1.4, y: -50})
+        </script>
+        
+    </body>
 </html>
